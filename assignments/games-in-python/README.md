@@ -1,19 +1,33 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Hangman Game
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Pratique manipulação de strings, loops, condicionais e entrada do usuário ao criar um jogo da Forca em Python. O jogador tentará descobrir uma palavra oculta antes de esgotar as tentativas disponíveis.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a Palavra e Exibir o Progresso
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie a estrutura inicial do jogo: selecione aleatoriamente uma palavra de uma lista predefinida e mostre ao jogador uma representação com espaços para as letras ainda não descobertas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar uma palavra aleatoriamente de uma lista predefinida
+- Exibir cada letra ainda não descoberta como um espaço reservado, por exemplo, `_ _ _ _`
+- Atualizar a exibição quando o jogador acertar uma letra
+
+### 🛠️ Controlar os Palpites e Encerrar a Partida
+
+#### Descrição
+Permita que o jogador envie palpites de letras, acompanhe as tentativas incorretas e finalize a partida quando a palavra for descoberta ou as tentativas acabarem.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar palpites de letras e informar se cada palpite está na palavra
+- Contabilizar e exibir as tentativas incorretas restantes
+- Encerrar quando todas as letras forem descobertas ou as tentativas acabarem
+- Exibir uma mensagem de vitória ou derrota ao final da partida
